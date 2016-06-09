@@ -1,0 +1,18 @@
+{
+  "name": "redirect301",
+  "version": "1.0.0",
+  "description": "Script node.js permettant de formatter des redirections 301 à destination d'un fichier .htaccess",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "redirect301": "./index.js"
+  },
+  "author": "biqette",
+  "license": "ISC",
+  "dependencies": {
+    "csv-write-stream": "^2.0.0",
+    "csvtojson": "^0.5.12"
+  }
+}
